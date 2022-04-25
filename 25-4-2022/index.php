@@ -102,16 +102,6 @@
     echo "<br><br>".str_repeat ("*",20);
     ?>
      <?php
-    echo "<br><br>".'Task 9'."<br><br>";
-    $num = -0.5;
-    switch($num) {
-        case 0 : echo "zero"; break;
-        case $num > 0 : echo "positive"; break;
-        case $num < 0 : echo "negative"; break;
-    }
-    echo "<br><br>".str_repeat ("*",20);
-    ?>
-     <?php
     echo "<br><br>".'Task 10'."<br><br>";
     $num = -0.5;
     switch($num) {
