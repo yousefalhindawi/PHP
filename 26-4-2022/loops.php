@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Loops 26-4-2022</title>
+    <style>
+        td {
+            
+        }
+    </style>
 </head>
 <body>
     <?php
@@ -92,6 +97,22 @@
     }
     }
     echo Fibonacci(9);
+    echo "<br><br>".str_repeat ("*",20);
+        
+    ?>
+    <?php
+    echo "<br><br>".'Task 7'."<br><br>";
+    echo "<table style='border: 1px solid black ; border-collapse: collapse'>";
+    for ($i =1; $i <= 6; $i++){
+        echo "<tr>";
+        for($j = 1; $j < 6; $j++){
+            $result = $i*$j;
+            echo "<td style='border: 1px solid black; width: 100px; padding: 3px'>$i*$j = $result</td>";
+            
+        }
+        echo "</tr>";
+    }
+    echo "</table>";
     echo "<br><br>".str_repeat ("*",20);
         
     ?>
